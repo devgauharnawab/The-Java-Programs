@@ -28,6 +28,7 @@ public class ContainingMostWater {
     public static void main(String[] args) {
         ContainingMostWater cmw = new ContainingMostWater();
         int height[] = {1 , 8, 6, 2, 5, 4, 8, 3, 7};
+        System.out.println("The element");
         cmw.printArray(height);
         cmw.maxArea(height);
 
